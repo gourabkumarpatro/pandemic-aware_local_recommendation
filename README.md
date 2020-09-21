@@ -11,11 +11,7 @@ SF_Yelp.csv
 ```
 **Field Details in Each File**
 * **"Customer_Choice_Survey.csv"**
-```tex
-Each respondent was first asked some basic details.
-Then 7 rounds of ranking questions were asked.
-In each round, they were given a list of 10 restaurants with random combinations of rating, distance and cuisine. They were asked to rank top 5 one-by-one out of those 10 provided. This becomes evident from the question titles provided the file.
-```
+Each respondent was first asked some basic details. Then 7 rounds of ranking questions were asked. In each round, they were given a list of 10 restaurants with random combinations of rating, distance and cuisine. They were asked to rank top 5 one-by-one out of those 10 provided. This becomes evident from the question titles provided the file.
 * **"NYC_Google.csv" and "SF_Google.csv"**
 ```tex
 "customer_location": location of the customer where she gets recommendation
