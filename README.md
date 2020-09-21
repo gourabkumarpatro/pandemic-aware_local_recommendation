@@ -10,9 +10,9 @@ SF_Google.csv
 SF_Yelp.csv
 ```
 **Field Details in Each File**
-* **"Customer_Choice_Survey.csv"**
+* **"Customer_Choice_Survey.csv":**
 Each respondent was first asked some basic details. Then 7 rounds of ranking questions were asked. In each round, they were given a list of 10 restaurants with random combinations of rating, distance and cuisine. They were asked to rank top 5 one-by-one out of those 10 provided. This becomes evident from the question titles provided the file.
-* **"NYC_Google.csv" and "SF_Google.csv"**
+* **"NYC_Google.csv" and "SF_Google.csv":** Local recommendations received on Google Local (Google Maps) for different customer locations in New York and San Francisco.
 ```tex
 "customer_location": location of the customer where she gets recommendation
 "rank": rank of the restaurant in the recommended list
@@ -25,7 +25,7 @@ Each respondent was first asked some basic details. Then 7 rounds of ranking que
 "rating_count": number of ratings collected for the restaurant
 "address": address of the restaurant
 ```
-* **"NYC_Yelp.csv" and "SF_Yelp.csv"**
+* **"NYC_Yelp.csv" and "SF_Yelp.csv":** Local recommendations received on Yelp for different customer locations in New York and San Francisco.
 ```tex
 "customer_location": location of the customer where she gets recommendation
 "rank": rank of the restaurant in the recommended list
@@ -39,8 +39,7 @@ Each respondent was first asked some basic details. Then 7 rounds of ranking que
 "url": link to the restaurant's yelp page
 ```
 ## Citation Information
-Citation Information:
-Please cite the following paper if you use this dataset.<br>
+Please cite the following paper if you use this dataset or the code.<br>
 
 * **"Towards Sustainability and Safety: Designing Local Recommendations for Post-pandemic World"**<br>
 Gourab K Patro, Abhijnan Chakraborty, Ashmi Banerjee, Niloy Ganguly.<br>
