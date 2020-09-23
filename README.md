@@ -1,4 +1,6 @@
 # Pandemic-Aware Local Recommendation
+## Code Details
+To be updated soon 
 
 ## Dataset Information
 **List of files**
@@ -63,4 +65,8 @@ keywords = {COVID-19, Local Recommendation, Google Local, Yelp, Safety, Social D
 location = {Virtual Event, Brazil},
 series = {RecSys '20}
 }
+```
+## Extended Version of The Paper
+```tex
+Towards_Safety_and_Sustainability_Extended.pdf
 ```
