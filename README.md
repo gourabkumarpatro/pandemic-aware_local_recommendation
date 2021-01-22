@@ -1,6 +1,6 @@
 # Pandemic-Aware Local Recommendation
 ## Code Details
-**"sample_LP":**
+**"sample_LP.py":**
 Sample code for the proposed linear programming approach
 ```tex
 INPUTS: All the details required for one instance of ranking (***note (lambda_1+lambda_2) <= 1)
