@@ -84,3 +84,4 @@ series = {RecSys '20}
 ```tex
 Towards_Safety_and_Sustainability_Extended.pdf
 ```
+You can also access the extended version of the paper [here](https://easychair.org/publications/preprint/npxr).
