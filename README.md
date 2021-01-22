@@ -1,7 +1,21 @@
 # Pandemic-Aware Local Recommendation
 ## Code Details
-To be updated soon 
-
+**"sample_LP":**
+Sample code for the proposed linear programming approach
+```tex
+INPUTS: All the details required for one instance of ranking (***note (lambda_1+lambda_2) <= 1)
+    E (array) = current exposure of businesses in an array
+    capacity (array) = safe capacities of businesses in an array
+    relevances (array) = rele
+    k (int) = size of the recommendation
+    beta_fraction (float) = beta/beta_max (this ultimately decides how much of exposure we are trying to guarantee for every business)
+    lambda_1 (float) = weight (fraction) for the sustainability term in the objective
+    lambda_2 (float) = weight (fraction) for the safety term in the objective
+    
+OUTPUT: 
+    reco = A k-ranked list of businesses
+    E = updated exposure of businesses
+```
 ## Dataset Information
 **List of files**
 ```tex
